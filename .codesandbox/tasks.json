@@ -4,10 +4,13 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "whereis htop": {
-      "name": "whereis htop",
-      "command": "whereis htop",
-      "runAtStart": true
+    "git clone https://github.com/zer-far/spurt": {
+      "name": "git",
+      "command": "git clone https://github.com/zer-far/spurt"
+    },
+    "git clone https://github.com/cuma-kadal/tol": {
+      "name": "tol",
+      "command": "git clone https://github.com/cuma-kadal/tol"
     }
   }
 }
